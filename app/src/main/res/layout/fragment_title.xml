@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0F2E9">
+
+        <TextView
+            android:id="@+id/tic"
+            android:layout_width="275dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/titan_one"
+            android:text="@string/tic"
+            android:textAlignment="viewStart"
+            android:textColor="@color/tic"
+            android:textSize="80sp"
+            app:layout_constraintBottom_toTopOf="@+id/tac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tac"
+            android:layout_width="275dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/titan_one"
+            android:text="@string/tac"
+            android:textAlignment="center"
+            android:textColor="@color/tac"
+            android:textSize="80sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.371" />
+
+        <TextView
+            android:id="@+id/toe"
+            android:layout_width="275dp"
+            android:layout_height="100dp"
+            android:height="120dp"
+            android:fontFamily="@font/titan_one"
+            android:text="@string/toe"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/tic"
+            android:textSize="80sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tac" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="#508991"
+            android:text="@string/play"
+            android:textColor="#E0F2E9"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toe"
+            app:layout_constraintVertical_bias="0.35" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

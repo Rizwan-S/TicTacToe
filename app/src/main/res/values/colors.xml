@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#508991</color>
+    <color name="colorPrimaryDark">#264653</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="tic">#D62828</color>
+    <color name="tac">#00A5CF</color>
+    <color name="nav">#75dddd</color>
+</resources>
