@@ -3,14 +3,7 @@ A multiplayer tic tac toe app implemented in kotlin. Some of the features implem
 
 
 # Overview
-<p align = "center">
-  <img src="images/home.jpg" width = "300">
-  <img src="images/game.jpg" width = "300">
-  <img src="images/nav.jpg" width = "300">
-  <img src="images/xwins.jpg" width = "300">
-  <img src="images/owins.jpg" width = "300">
-  <img src="images/draw.jpg" width = "300">
-</p>
+<p align = "center"><img src="images/home.jpg" width = "300"><img src="images/game.jpg" width = "300"><img src="images/nav.jpg" width = "300"><img src="images/xwins.jpg" width = "300"><img src="images/owins.jpg" width = "300"><img src="images/draw.jpg" width = "300"></p>
 
 
 # Kotlin concepts implemented
